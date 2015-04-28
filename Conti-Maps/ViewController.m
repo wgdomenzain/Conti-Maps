@@ -79,8 +79,8 @@ Localization
     // Creates a marker in the center of the map.
     GMSMarker *marker = [[GMSMarker alloc] init];
     marker.position = CLLocationCoordinate2DMake(mlatitude, mlongitude);
-    marker.title = @"Sydney";
-    marker.snippet = @"Australia";
+    marker.title = @"Continental Periférico";
+    marker.snippet = @"Commercial Vehicles";
     marker.map = mapView_;
     
     [self.vMap addSubview:mapView_];
