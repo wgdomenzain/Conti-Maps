@@ -138,10 +138,8 @@
 		D1D5993E1AEFC7EB001E537C /* Conti-Maps */ = {
 			isa = PBXGroup;
 			children = (
-				D1D599431AEFC7EB001E537C /* AppDelegate.h */,
-				D1D599441AEFC7EB001E537C /* AppDelegate.m */,
-				D1D599491AEFC7EB001E537C /* ViewController.h */,
-				D1D5994A1AEFC7EB001E537C /* ViewController.m */,
+				D1D599841AEFDAB3001E537C /* Main */,
+				D1D599851AEFDABF001E537C /* Controllers */,
 				D1D5994C1AEFC7EB001E537C /* Main.storyboard */,
 				D1D5994F1AEFC7EB001E537C /* Images.xcassets */,
 				D1D599511AEFC7EB001E537C /* LaunchScreen.xib */,
@@ -175,6 +173,24 @@
 				D1D5995D1AEFC7EB001E537C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1D599841AEFDAB3001E537C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D1D599431AEFC7EB001E537C /* AppDelegate.h */,
+				D1D599441AEFC7EB001E537C /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		D1D599851AEFDABF001E537C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D1D599491AEFC7EB001E537C /* ViewController.h */,
+				D1D5994A1AEFC7EB001E537C /* ViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

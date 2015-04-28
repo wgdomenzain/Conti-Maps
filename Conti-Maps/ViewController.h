@@ -7,9 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <CoreLocation/CoreLocation.h>
+#import <GoogleMaps/GoogleMaps.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <CLLocationManagerDelegate, GMSMapViewDelegate>
 
+//Variables
+@property (strong, nonatomic) CLLocationManager     *locationManager;
+@property (strong, nonatomic) CLLocation            *location;
+
+//Views
+@property (strong, nonatomic) IBOutlet UIView *vMap;
+
+//Actions
+- (IBAction)btnRefreshMapPressed:(id)sender;
 
 @end
 
